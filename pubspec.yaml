@@ -1,0 +1,44 @@
+name: main_flutter
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you want to publish the package
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^16.3.0
+  http: ^1.1.0
+  table_calendar: ^3.0.9
+  audioplayers: ^5.2.1
+  shared_preferences: ^2.2.2
+  cupertino_icons: ^1.0.6
+  flutter_slidable: ^3.1.1  # For slide-to-delete
+  intl: ^0.18.1              # For formatting DateTime
+  confetti: ^0.7.0           # Optional: For celebratory animation 🎉
+  lottie: any
+  speech_to_text: ^7.0.0     # Updated to the latest compatible version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To use custom images, uncomment and add paths:
+  # assets:
+  #   - assets/images/
+
+  # To use custom fonts, uncomment and configure:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
